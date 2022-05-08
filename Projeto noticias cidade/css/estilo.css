@@ -1,0 +1,190 @@
+/* Formatação inicial */
+*{
+	
+	margin: 0px;
+	padding: 0px;
+}
+/* Anotação importante, se der pode-se usar o background do cabeçalho no body asssim permitindo
+ a utilização de uma outra imagem na tad do cabeçalho, neste caso a imagem do brasil */
+body{
+	font-family: "Trebuchet", Helvetica, sans-serif;
+	background: url('../imagens/fundo.png') repeat-x;
+}
+/* Estrutura cabeca */
+#conteiner{
+	width: 770px;
+	margin: 0 auto;
+}
+#area-cabeca{
+	background: url('../imagens/detalhe-topo.png') no-repeat right;
+	height: 150px;
+	padding-top: 25px;
+}
+.logo{
+	width: 152;
+	height: 66px;
+	background: url('../imagens/logo.png') no-repeat left;
+	text-indent: -3000px;
+}
+/* Barra de navegação */
+ul{
+	list-style: none;
+}
+#area-cabeca ul{
+	margin-top: 30px;
+	float: left;
+	background: #b10333;
+
+}
+#area-cabeca ul li{
+	float: left;
+	background: #B40431;
+		
+}
+#area-cabeca a, #area-cabeca a:visited{
+	font-size: 0.9em;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	background: url('../imagens/divisor.png') no-repeat left;
+}
+#area-cabeca a:hover{
+	color: #69001d;
+}
+#area-cabeca li.first a{
+	background-image: none;	
+}
+#area-cabeca a.selecionado {
+	color: white;
+	background: #de003e;
+	cursor: text;
+}
+/* Estrutura corpo*/
+#area-corpo{
+	margin-top: 60px;
+}
+#conteudo-esquerdo{
+	width: 280px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+#duas-colunas #conteudo-esquerdo{
+	width: 575px;
+}
+#uma-coluna #conteudo-esquerdo{
+	width: 770px;
+	margin: 0 0 20px 0px;
+}
+img.media{
+	width: 99%;
+	border: 2px solid #bfbfbf;
+}
+a.leia{
+	color: #b10333;
+}
+h3{
+	color: white;
+	font-size: 0.8em;
+	font-weight: bold;
+	background: #b10333;
+	display: inline;
+	padding: 3px;
+	text-transform: uppercase;
+}
+#conteudo-direito{
+	width: 280px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+#conteudo-direito h3{
+ 	color: black;
+	background: #de003e;
+}
+.newfast li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+.newfast li a img{
+ 	width: 80px;
+ 	border: 1px solid #bfbfbf;
+ 	float: left;
+ 	margin: 5px;
+}
+.newfast a{
+	text-decoration: none;
+	color: black;
+	font-size: 0.8em;
+}
+.newfast li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+.newfast h4{
+	text-transform: uppercase;
+	color: #00BFFF;
+	margin-top: 5px;
+}
+
+/* Estrutura caixa*/
+.caixa{
+	background: #f3f3f3 url('../imagens/fundo-caixa.png');
+	margin: 10px 0;
+	padding: 5px;
+}
+h2{
+	color: white;
+	margin-bottom: 5px;	
+	padding: 5px;
+	background: #294c71;
+	font-size: 1.1em;
+}
+.caixa-conteudo{
+	background: white;
+	padding: 5px;
+}
+/* Estrutura corpo lateral*/
+#area-lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -770px;
+}
+#area-lateral a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	display: block;
+}
+#area-lateral a:hover{
+	color: #A4A4A4;
+	background: url('../imagens/marcador.png') no-repeat left;
+	text-indent: 10px;
+}
+#area-lateral form{
+	padding: 10px;
+	font-weight: bold;
+}
+#area-lateral input.submit{
+	padding: 8px 20px;
+	color: white;
+	background: #B40431;
+	margin: 10px auto 0 auto;
+	display: block;
+}
+#email{
+	width: 98%;
+	height: 30px;
+}
+#area-foot{
+	padding: 20px;
+	background: #294c71;
+	color: white;
+}
+#foot{
+	width: 770px;
+	margin: 0 auto;
+	text-align: center;
+}
+
