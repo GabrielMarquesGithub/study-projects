@@ -1,0 +1,124 @@
+/* Layout 
+----------------------------------*/
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+body{
+	background: url('../imagens/capa.png'),
+				url('../imagens/ruido.png'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: helvetica, arial, sans-serif;
+}
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+}
+.navbar .nav-item .nav-link{
+	color: white;
+}
+.navbar .nav-item .nav-link:hover{
+	color: lightsteelblue;
+}
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+/* Capa
+----------------------------------*/
+.btn-custom{
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	transition: all 0.4s;
+}
+/* Estrutura de conteudos
+----------------------------------*/
+#serviços h2,h3{
+	color: #7c26f8;
+}
+#usabilidade h3{
+	color: #9bf0b1;
+}
+#usabilidade{
+ 	color: white;
+}
+.rotacionar{
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+/* Footer 
+----------------------------------*/
+footer{
+	background: black;
+	position: relative;
+}
+footer h4{
+	color: gray;
+	font-size: 0.8em;
+}
+footer .navbar-nav a{
+	color: white;
+	text-decoration: none;
+}
+footer .navbar-nav a:hover{
+	color: black;
+	padding: 5px;
+	background: white;
+	transition: all 0.4s;
+}
+/* Tipografia 
+----------------------------------*/
+h1{
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+h2, h3{
+	font-weight: bold;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1{
+		font-size: 3em;
+	}
+	h2{
+	font-size: 2.5em;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1{
+		font-size: 4em;
+	}
+	h2{
+	font-size: 3em;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1{
+		font-size: 5em;
+	}
+	h2{
+	font-size: 2.5em;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1{
+		font-size: 6em;
+	}
+	h2{
+	font-size: 3em;
+}
+}

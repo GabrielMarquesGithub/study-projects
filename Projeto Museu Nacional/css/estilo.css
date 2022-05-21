@@ -1,0 +1,135 @@
+/* Estrutura do site
+------------------------------------------------ */
+body{
+	background: #f4f2ec url('../img/fundo.png') repeat-x;
+	font: 12px "Lucida Grande", "Lucida sans unicode", Arial, sans-serif;
+}
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+a:link, a:visited, a:active{
+	color: #af670a;
+	text-decoration: none;
+}
+section{
+	margin-bottom: 10px;
+}
+/* logo
+------------------------------------------------ */
+#logo a {
+	width: 248px;
+	height: 21px;
+	display: block;
+	background: url('../img/logo.png') no-repeat;
+	text-indent: -3000px;
+}
+/* Barra de navegação
+------------------------------------------------ */
+header{
+	padding: 15px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+nav ul {
+	list-style: none;
+}
+nav li{
+	display: inline;
+	margin: 15px;
+}
+nav a{
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: white;
+	border-bottom: 1px solid white;
+}
+/* Principal
+------------------------------------------------ */
+#principal{
+	display: flex;
+	justify-content: space-between;
+}
+#conteudo{
+	width: 710px;
+}
+#postagens{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}	
+.post {
+	width: 345px;
+	margin-bottom: 15px;
+}
+.post h4{
+	margin-bottom: 10px;
+	color: #0B3B0B;
+}
+/* Principal-lateral
+------------------------------------------------ */
+aside{
+	width: 350px;
+	background: #ebe7dd;
+}
+#visita{
+	background: #cdc8b1;
+	padding: 20px;
+}
+h4 {
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin: 0px;
+}
+input{
+	border: none;
+	width: 80px;
+	background: #fff;
+	height: 20px;
+	text-align: center;
+}
+input.botao{
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+fieldset{
+	border: none;
+}
+legend{
+	display: none;
+}
+#galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#galeria h4{
+	width: 100%;
+	margin: 10px 20px;
+}
+#galeria img {
+	width: 93px;
+	height: 93px;
+	padding: 20px;
+	background: url('../img/fundo-foto.png') no-repeat;
+}
+/* footer
+------------------------------------------------ */
+footer{
+	background: url('../img/fundo-rodape.png') no-repeat center top;
+}
+footer ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+footer li{
+ 	padding: 10px;
+ 	margin-top: 20px;
+}

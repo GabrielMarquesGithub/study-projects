@@ -1,0 +1,48 @@
+html{
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+body{
+    background: url('imagens/bg.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+.mosquito3{
+    width: 90px;
+    height: 90px;
+}
+
+/*O transform scaleX - 1 tem a função de espelhar uma imagem por exemplo*/
+.lado1{
+    transform: scaleX(1);
+}
+.lado2{
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: 1px solid #fff;
+    background-color: #fff;
+    opacity: 0.6;
+  
+}
+.vidas{
+    width: 100%;
+}
+.cronometro{
+    font-size: 20px;
+    font-weight: bold;
+}
